@@ -3,7 +3,6 @@
 # Description: Uses sed to replace all instances of a name pattern with the provided replacement text
 # Usage: ./sed_name_replace.sh <pattern> <replacement> < inputfile.txt
 
-# Check for the correct number of arguments
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <name-pattern> <replacement-text>" >&2
     exit 1
